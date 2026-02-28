@@ -1,0 +1,71 @@
+{
+    "projects": 3,
+    "1": {
+        "name": "BarsikAutoClicker",
+        "small-desc": "Авто-кликер Барсика",
+        "downloads": {
+            "1.0-InnoSetup": {
+                "filename": "BarsikAutoClicker-1.0-InnoSetup.exe",
+                "type": "EXE",
+                "hash": "42be1eee85bcfe170951042f9a1ece2fc5d4171e737c9f55957022c4694f4592",
+                "size": "42MB",
+                "server": "github",
+                "download": "https://github.com/barsik0396/BarsikAutoClicker/releases/download/1.0/BarsikAutoClicker-1.0-InnoSetup.exe",
+                "exec": "BarsikAutoClicker-1.0-InnoSetup.exe /ALLUSERS /SILENT",
+                "uninst": "\"C:\\Program Files\\BarsikAutoClicker\\unins000.exe\" /SILENT",
+                "run": "\"C:\\Program Files\\BarsikAutoClicker\\main.exe\""
+            },
+            "1.0-msi": {
+                "filename": "BarsikAutoClicker-1.0.msi",
+                "type": "MSI",
+                "hash": "64db170a45112bb5193b806c0d5a3f95e7cc7058a9355bdf3844d8e1e7b92fe0",
+                "size": "45.8MB",
+                "server": "github",
+                "download": "https://github.com/barsik0396/BarsikAutoClicker/releases/download/1.0/BarsikAutoClicker-1.0.msi",
+                "exec": "msiexec /i BarsikAutoClicker-1.0.msi",
+                "uninst": "msiexec /uninstall BarsikAutoClicker-1.0.msi",
+                "run": "\"C:\\Program Files (x86)\\BarsikAutoClicker\\main.exe\""
+            }
+        },
+        "tags": ["Auto Clicker", "BarsikAutoClicker"],
+        "github": "https://github.com/barsik0396/BarsikAutoClicker"
+    },
+    "2": {
+        "name": "BarsikVoxel",
+        "small-desc": "Полноценная игра Барсика на Python (чего?)",
+        "downloads": {
+            "0.0.1-InnoSetup": {
+                "filename": "BarsikVoxel-0.0.1-alpha-InnoSetup.exe",
+                "type": "EXE",
+                "hash": "4dc8bc16ef4637031615156d7789bfb3cc7068da7b880ad674952421387fcb46",
+                "size": "24.6MB",
+                "server": "github",
+                "download": "https://github.com/barsik0396/BarsikVoxel/releases/download/0.0.1-alpha/BarsikVoxel-0.0.1-alpha-InnoSetup.exe",
+                "exec": "BarsikVoxel-0.0.1-alpha-InnoSetup.exe /ALLUSERS /SILENT",
+                "uninst": "\"C:\\Program Files\\BarsikVoxel\\unins000.exe\" /SILENT",
+                "run": "\"C:\\Program Files\\BarsikVoxel\\BarsikVoxel.exe\""
+            }
+        },
+        "tags": ["3D", "Python", "GitHub"],
+        "github": "https://github.com/barsik0396/BarsikVoxel"
+    },
+    "3": {
+        "name": "BarsikVoxel",
+        "small-desc": "Полноценная игра Барсика на Python (чего?)",
+        "downloads": {
+            "008-InnoSetup": {
+                "filename": "Launcher.v008.setup.exe",
+                "type": "EXE",
+                "hash": "6f7016730adf77c7355bfb30f698891dff9bd4363b8350cac1ca26bfd251b4f7",
+                "size": "28.9MB",
+                "server": "github",
+                "download": "https://github.com/barsik0396/BarsikLauncher/releases/download/v008/Launcher.v008.setup.exe",
+                "exec": "Launcher.v008.setup.exe /SILENT",
+                "uninst": "\"C:\\Program Files\\Barsik\\Launcher008\\unins000.exe\" /SILENT",
+                "run": "\"C:\\Program Files\\Barsik\\Launcher008\\launcher.exe\""
+            }
+        },
+        "tags": ["Minecraft"],
+        "github": "https://github.com/barsik0396/BarsikLauncher"
+    }    
+}
