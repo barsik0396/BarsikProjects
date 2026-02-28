@@ -50,8 +50,8 @@
         "github": "https://github.com/barsik0396/BarsikVoxel"
     },
     "3": {
-        "name": "BarsikVoxel",
-        "small-desc": "Полноценная игра Барсика на Python (чего?)",
+        "name": "BarsikLauncher",
+        "small-desc": "Лаунчер Minecraft",
         "downloads": {
             "008-InnoSetup": {
                 "filename": "Launcher.v008.setup.exe",
